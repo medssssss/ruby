@@ -75,7 +75,14 @@ main {
 
 .work-button,
 .about-button {
-    display: inline-block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding: 12px 24px;
     background-color: #F58F8F;
     color: white;
