@@ -82,5 +82,28 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
+
+    .intro {
+    font-size: 17px;
+    color: #666;
+    max-width: 600px;
+    margin: 20px auto;
+}
     
+    .work-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.work-button:hover {
+    background-color: #357ABD;
+    transform: translateY(-2px);
+}
 }
