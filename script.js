@@ -1,7 +1,7 @@
 function openAbout() {
-document.getElementById("about-box").style.display = "flex";
+    document.getElementById("about-box").classList.add("open");
 }
 
 function closeAbout() {
-  document.getElementById("about-box").style.display = "none";
+    document.getElementById("about-box").classList.remove("open");
 }
