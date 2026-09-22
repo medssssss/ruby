@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <title>Medeea | Portfolio</title>
     <link rel="stylesheet" href="style.css">  
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -22,7 +23,35 @@
 
         <h1>Welcome to my website!</h1>
 
- <p>IT • Web Development • Digital Marketing</p>
+        <p>IT • Web Development • Digital Marketing</p>
+        <p class="intro">I’m an IT graduate interested in web development, digital marketing and creative projects.</p>
+        
+        <a href="it.html" class="work-button">View my work</a>
+
+    <button class="about-button" onclick="openAbout()">About Me</button>
+
+    <div id="about-box" class="about-box">
+
+        <div class="about-content">
+
+            <span class="close-button" onclick="closeAbout()">&times;</span>
+
+            <h2>About Me</h2>
+
+            <p>
+                I’m an IT graduate interested in web development,
+                digital marketing and creative projects.
+            </p>
+
+            <p>
+                I enjoy creating websites, digital content and videos,
+                while continuously learning new skills.
+            </p>
+
+        </div>
+
+    </div>
+
 
     </main>
 
