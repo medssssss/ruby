@@ -62,5 +62,23 @@ main {
     nav {
         flex-direction: column;
         height: auto;
+        width: 100%;
+        gap: 5px;
+        padding: 10px 12px;
     }
+    h1 {
+    font-size: 36px;
+}
+    p {
+    font-size: 18px;
+}    
+    main {
+    margin: 50px auto;
+}
+    nav a {
+    margin-right: 0;    
+    width: 100%;
+    box-sizing: border-box;
+}
+    
 }
