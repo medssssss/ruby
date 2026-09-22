@@ -65,6 +65,7 @@ main {
         width: 100%;
         gap: 5px;
         padding: 10px 12px;
+        align-items: stretch;
     }
     h1 {
     font-size: 36px;
