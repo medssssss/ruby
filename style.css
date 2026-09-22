@@ -6,9 +6,13 @@ nav {
     text-align: center;
     background-color: #222;
     padding: 15px;
+    border-radius: 10px;
 }
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
+}
+nav a:hover {
+    color: #4A90E2;
 }
