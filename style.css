@@ -66,6 +66,7 @@ main {
         gap: 5px;
         padding: 10px 12px;
         align-items: stretch;
+        box-sizing: border-box;
     }
     h1 {
     font-size: 36px;
